@@ -1,0 +1,35 @@
+.main_content {
+    background-color: rgb(255, 166, 0);
+    background-position: fixed;
+}
+.form {
+    margin: 2%;
+}
+.add-butn {
+    margin: 1%;
+}
+.clear_butn {
+    margin: 1%;
+    width: 45%;
+    align-self: center;
+}
+.todo_list {
+    display: flex;
+    flex-flow: column wrap;
+}
+.item {
+    font-size: 2rem;
+    color: red;
+    background-color: rgb(121, 85, 7);
+    text-align: left;
+    width: 35%;
+    padding: 1%;
+    margin: 2%;
+}
+
+.item.completed {
+    text-decoration: line-through;
+    background-color: rgba(121, 85, 7, 0.705);
+    text-align: center;
+    padding: 1%;
+}
